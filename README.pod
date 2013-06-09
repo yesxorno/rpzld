@@ -15,9 +15,11 @@ This project is under B<core development> (pre-Alpha).
 
 =head2 Documentation
 
+See the doc/ directory.
+
 =head2 Funding and Sponsorship
 
-=back
+Volunteers.
 
 =cut
 
