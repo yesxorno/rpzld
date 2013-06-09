@@ -1,0 +1,22 @@
+=head1 Concept
+
+An end user organisation is using RPZ to reduce access to 
+domains controlled by miscreants.  Members of that end user
+organisation are aware of the danger of attack email and
+are informed to forward attacks to a local (inaccessible
+from the public internet) mailbox.
+
+A job runs on that mailbox.  Each received mail is scanned
+to extract domain names, possibly embedded in URL's.  The
+extracted domain names are tested against the in place RPZ
+defense.  Domains which are not already blocked or redirected
+are added to the local blacklist, and possibly submitted to 
+upstream reputation providers for consideration.
+
+Another job runs on a periodic basis to assess if listed 
+locally blacklisted domains can be removed (cleanup) 
+after they are included in upstream reputation lists.
+
+=cut
+
+
