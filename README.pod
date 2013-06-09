@@ -1,0 +1,24 @@
+
+=head1 PROJECT
+
+The RPZLD (RPZ Local Defense) project will provide a working
+proof of concept for using local threat intelligence in 
+association with the Response Policy Zone technology.
+
+=head2 Licence
+
+See the LICENCE.txt file (GPLv2).
+
+=head2 Status
+
+This project is under B<core development> (pre-Alpha). 
+
+=head2 Documentation
+
+=head2 Funding and Sponsorship
+
+=back
+
+=cut
+
+
